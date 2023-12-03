@@ -10,7 +10,6 @@ https://jdvelasq.github.io/courses/notebooks/sklearn_supervised_10_neural_networ
 
 import pandas as pd
 
-
 def pregunta_01():
     """
     Carga y separación de los datos en `X` `y`
@@ -37,7 +36,7 @@ def pregunta_02():
     """
 
     # Importe train_test_split
-    sklearn.model_selection import train_test_split
+    from sklearn.model_selection import train_test_split
 
     # Cargue los datos de ejemplo y asigne los resultados a `X` y `y`.
     x, y = pregunta_01()
